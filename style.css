@@ -10,6 +10,13 @@ body{
     background-size: cover;
     padding: 15% 0;
 }
+.our-goal{
+    padding: 50px 0;
+    background: #FFEEEE;
+}
+.pur-color{
+    color: #FF5959;
+}
 .banner-title{
     font-size: 64px;
     line-height:78px;
@@ -28,7 +35,14 @@ margin-bottom: 40px;
 }
 .upcoming-events{
     background-image: url(images/donation16.jpg);
-    padding: 25px 0;
+    padding: 50px 0;
+    background-repeat: no-repeat;
+}
+.dtn-amount {
+    font-size: 92px;
+    font-weight: bolder;
+    line-height: 98px;
+    margin: 0;
 }
 .white-color{
     color: #FFFFFF;
@@ -61,6 +75,10 @@ margin-bottom: 15px;
 .dte-amt-area {
     margin: 60px auto;
     width: 800px;
+
+}
+.font-lobstar{
+    font-family: 'Lobster Two', cursive;
 }
 .dte-box{
     width: 135px;
@@ -97,9 +115,11 @@ margin-bottom: 15px;
     background: #fff;
 }
 .dte-box-red{
-background: #FFEEEE;
-border: 2px solid #FF5959;
-border-radius: 5px;
+    background: #FFEEEE;
+    border: 2px solid #FF5959;
+    border-radius: 5px;
+    color: #FF5959;
+
 }
 .img-area{
     position: relative;
@@ -119,6 +139,7 @@ border-radius: 5px;
 }
 .date span{
     color:#FF5959;
+    font-size: 30px;
 }
 .order-input{
     width: 800px;
@@ -136,6 +157,10 @@ border-radius: 5px;
     
 }
 .dtn-box-area{
+    width: 1120px;
+    margin: 50px auto;
+}
+.dtn-box-area-2{
     width: 1200px;
     margin: 50px auto;
 }
@@ -157,7 +182,7 @@ border-radius: 5px;
     background: rgba(79, 157, 166, 0.1);
 }
 .bg-ne-pink{
-    background: rgba(255, 89, 89, 0.1);
+    background: rgb(215 95 255 / 12%);
 }
 .bg-ne-yellow{
     background: #FFF4D6;
@@ -265,4 +290,8 @@ footer{
 }
 .copywrite-text{
     color: #fff;
+}
+.cpy-link{
+    text-decoration: none;
+    color: #FF5959;
 }
